@@ -1,13 +1,27 @@
-# ONI-ExampleMod
-Sample Visual Studio solution to help you started with a new mod for Oxygen not Included.
+# ONI-EasySteamTurbineMod
+Mod for Oxygen not Included.
+It looses Steam Turbine working requirements allowing it to be used without relying on quirks and bugs.
 
-Requirements
+There are two must rules. Any tile below it (can be different tiles):
+* has to have 3 kg of Steam;
+* has temperature above 227 C.
+
+I.e. Turbine will work by just being in a cloud of Steam, there's no need to move Steam around.
+![Steam Turbine](https://github.com/nicktime/ONI-EasySteamTurbineMod/raw/master/doc/SteamTurbine.png "Steam Turbine")
+
+Installation
 ------------
+* Install ModLoader https://github.com/javisar/ONI-Modloader/#installation
+* Put [MovableHeatMod.dll](https://github.com/nicktime/ONI-MovableHeatMod/releases/latest) into `Mods` dir
+
+
+Building
+--------
+### Requirements
 * .NET Framework 3.5
 * Visual Studio 2017
 
-Getting started
----------------
+### Guide
 * Do the "Installation" part of https://github.com/javisar/ONI-Modloader
 * Copy the following files from ONI's `OxygenNotIncluded_Data\Managed` folder to this mod's `\lib\`:
    * `Assembly-CSharp.dll`
@@ -15,9 +29,4 @@ Getting started
    * `Assembly-UnityScript-firstpass.dll`
    * `UnityEngine.dll`
    * `UnityEngine.UI.dll`
-* Open solution in Visual Studio
-* Open project's `Properties`:
-   * Rename `Assembly name` and `Default Namespace`
-   * Click `Assembly Information...` and make renames there too
-* Build (.dll will get copied to ONI `Mods` dir);
-* Run the game.
+* Build the solution (.dll will get copied to ONI `Mods` dir)
