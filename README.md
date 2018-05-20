@@ -15,7 +15,7 @@ I.e. Turbine will work by just being in a cloud of Steam, there's no need to mov
 Installation
 ------------
 * Install ModLoader https://github.com/javisar/ONI-Modloader/#installation
-* Put [MovableHeatMod.dll](https://github.com/nicktime/ONI-MovableHeatMod/releases/latest) into `Mods` dir
+* Put [EasySteamTurbineMod.dll](https://github.com/nicktime/ONI-EasySteamTurbineMod/releases/latest) into `Mods` dir
 
 
 Building
