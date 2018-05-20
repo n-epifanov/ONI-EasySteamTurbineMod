@@ -1,0 +1,9 @@
+/bin/
+/.vs/
+/obj/
+
+/lib/Assembly-CSharp.dll
+/lib/Assembly-CSharp-firstpass.dll
+/lib/Assembly-UnityScript-firstpass.dll
+/lib/UnityEngine.dll
+/lib/UnityEngine.UI.dll
