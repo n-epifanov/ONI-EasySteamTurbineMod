@@ -7,6 +7,9 @@ There are two must rules. Any tile below it (can be different tiles):
 * has temperature above 227 C.
 
 I.e. Turbine will work by just being in a cloud of Steam, there's no need to move Steam around.
+
+(If you have [MovableHeatMod](https://github.com/nicktime/ONI-MovableHeatMod) installed you can also dump excess heat into Turbine.)
+
 ![Steam Turbine](https://github.com/nicktime/ONI-EasySteamTurbineMod/raw/master/doc/SteamTurbine.png "Steam Turbine")
 
 Installation
