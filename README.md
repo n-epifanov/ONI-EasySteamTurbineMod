@@ -9,11 +9,13 @@ Requirements
 Getting started
 ---------------
 * Do the "Installation" part of https://github.com/javisar/ONI-Modloader
-* Copy the following files from ONI's `OxygenNotIncluded_Data\Managed` folder to this project's `\lib\`:
+* Copy the following files from ONI's `OxygenNotIncluded_Data\Managed` folder to this mod's `\lib\`:
    * `Assembly-CSharp.dll`
    * `Assembly-CSharp-firstpass.dll`
    * `Assembly-UnityScript-firstpass.dll`
    * `UnityEngine.dll`
    * `UnityEngine.UI.dll`
+* Open solution in Visual Studio
+* Open project's `Properties` and rename `Assembly name` and `Default Namespace`
 * Build (.dll will get copied to ONI `Mods` dir);
 * Run the game.
