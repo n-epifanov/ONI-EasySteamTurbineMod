@@ -2,9 +2,9 @@
 Mod for Oxygen not Included.
 It looses Steam Turbine working requirements allowing it to be used without relying on quirks and bugs.
 
-There are two must rules. Any tile below it (can be different tiles):
+There are two must rules for it to start working. Any tile below it (can be different tiles):
 * has to have 3 kg of Steam;
-* has temperature above 227 C.
+* has temperature above 227 C (old rule, no change here).
 
 I.e. Turbine will work by just being in a cloud of Steam, there's no need to move Steam around.
 
