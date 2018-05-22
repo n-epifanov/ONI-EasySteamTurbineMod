@@ -12,7 +12,7 @@ I.e. Turbine will work by just being in a cloud of Steam, there's no need to mov
 
 ![Steam Turbine](https://github.com/nicktime/ONI-EasySteamTurbineMod/raw/master/doc/SteamTurbine.png "Steam Turbine")
 
-You can enable and disable the mod without any problem: all affected buildings (built/planned/etc) will change their properties as expected.
+You can enable and disable the mod without any problem: all Steam Turbines (built/planned/etc) will change their properties as expected.
 
 Installation
 ------------
